@@ -1,3 +1,16 @@
+/* 載入等待環 */
+#loader {
+    z-index:100;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#loader .spinner-border{
+    height:100px !important;
+    width: 100px !important;
+}
+
 /*上排選單與系所簡介共同背景*/
 #navbar-intro-background {
     /* 背景圖片 */
@@ -126,47 +139,47 @@
     padding: 50px 0px;
 }
 
-#admissions-links a{
+#admissions-links a {
     color: white !important;
 }
 
-#admissions-links #card01 .card {  
-    transform: rotate(-2deg); 
-    margin-left:10px;
-    margin-right:10px;
-    height: 300px;    
+#admissions-links #card01 .card {
+    transform: rotate(-2deg);
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 300px;
     /* 背景圖片 */
     background-image: url(../source/admissions.jpg) !important;
     /* 背景滿版不重複，上下置中 */
     background-repeat: no-repeat;
-    background-size: cover;        
+    background-size: cover;
 }
 
-#admissions-links #card02 .card {    
+#admissions-links #card02 .card {
     transform: rotate(2deg);
-    margin-left:10px;
-    margin-right:10px;
-    height: 300px;    
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 300px;
     /* 背景圖片 */
     background-image: url(../source/papers.jpg) !important;
     /* 背景滿版不重複，上下置中 */
     background-repeat: no-repeat;
-    background-size: cover;        
+    background-size: cover;
     background-position: left center;
 }
 
-#admissions-links   .card-img-overlay  {
-    background-color: rgba(0, 0, 0,0.5 ) !important;
+#admissions-links .card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.5) !important;
     font-size: 20px;
 }
 
-#admissions-links   .card-img-overlay:hover{
-    background-color: rgba(0, 0, 0,0.3 ) !important;
+#admissions-links .card-img-overlay:hover {
+    background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
-#admissions-links .card :hover{
+#admissions-links .card :hover {
     transition: 1s;
-    padding:30px;
+    padding: 30px;
     font-size: 30px;
 }
 
