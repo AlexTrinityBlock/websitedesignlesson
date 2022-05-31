@@ -1,0 +1,90 @@
+/*上排選單與系所簡介共同背景*/
+#navbar-intro-background {
+    /* 背景圖片 */
+    background-image: url(/source/intro.jpeg);
+    /* 背景滿版不重複，上下置中 */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* 上排選單 */
+#navbar {
+    opacity: 0.9 !important;
+    background-color: black !important;
+}
+
+/* 簡介 */
+.introduction .row {
+    padding: 150px 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* 學術成就 */
+#academic-achievement .row {
+    padding: 50px 0px;
+
+}
+
+#academic-achievement img {
+    width: 100%;
+}
+
+/* 各項表現 */
+#school-achievement .row {
+    padding: 50px 0px;
+}
+
+#school-achievement img {
+    width: 50vh;
+}
+
+#school-achievement .col {
+    padding: 0px 60px;
+}
+
+/* 其他成就 */
+#other-achievement {
+    /* 背景圖片 */
+    background-image: url(/source/child.jpg);
+    /* 背景滿版不重複，上下置中 */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#other-achievement .row {
+    padding: 150px 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* 新聞幻燈片 */
+#news-carousel {
+    padding: 50px 0px;
+    height: 500px;
+}
+
+#news-carousel .row {
+    /* 背景圖片 */
+    background-image: url(/source/intro.jpeg);
+    /* 背景滿版不重複，上下置中 */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#carouselCaptions {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#news-carousel img {
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    height: 500px;
+}
+
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
