@@ -11,6 +11,8 @@
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <!--滑入動畫CSS-->
     <link href="./css/animate.min.css" rel="stylesheet">
+    <!-- 燈箱效果 -->
+    <link href="./css/lightbox.min.css" rel="stylesheet">
     <!--自訂的css-->
     <link href="./css/style.css" rel="stylesheet">
 </head>
@@ -259,16 +261,131 @@
     <!--幻燈片1-End-->
 
     <!--戲所介紹影片-Start-->
-    <div class="container-fluid" id="intro-vedio">
+    <div class="container-fluid wow fadeInUp" id="intro-vedio">
         <h1 class=" text text-center text-muted wow fadeInUp">系所介紹影片</h1>
         <hr>
         <div class="row">
             <div class="col-md-6 offset-md-3 text">
-                <iframe  height="315" src="https://www.youtube.com/embed/qXgslKVNoD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe height="315" src="https://www.youtube.com/embed/qXgslKVNoD0" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
             </div>
         </div>
     </div>
     <!--戲所介紹影片-End-->
+
+    <!--課程流程-Start-->
+    <div class="container-fluid" id="class-map">
+        <h1 class=" text text-center text-muted wow fadeInLeft">課程流程</h1>
+        <hr>
+        <div class="row wow fadeInRight">
+            <div class="col-md-8 offset-md-2 text">
+                <!-- 可切換標籤-Start -->
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
+                            type="button" role="tab" aria-controls="home" aria-selected="true">修課流程</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+                            type="button" role="tab" aria-controls="profile" aria-selected="false">課程架構圖</button>
+                    </li>
+                </ul>
+                <!-- 可切換標籤-End -->
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <a href="./source/classprocess.jpg">
+                            <img src="./source/classprocess.jpg">
+                        </a>
+                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <a href="./source/coursestructure.jpg">
+                            <img src="./source/coursestructure.jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--課程流程-End-->
+
+    <!--地圖-Start-->
+    <div class="container-fluid wow rotateInDownLeft" id="school-map">
+        <h1 class=" text text-center text-muted ">地圖</h1>
+        <hr>
+        <div class="row">
+            <div class="col-md-8 offset-md-2 ">
+                <img src="./source/map.jpg">
+            </div>
+        </div>
+    </div>
+    <!--地圖-End-->
+
+    <!--招生連結-Start-->
+    <div class="container-fluid" id="admissions-links">
+        <h1 class=" text text-center text-muted wow tada">招生連結</h1>
+        <hr>
+        <div class="row">
+            <!-- 卡片1-Start -->
+            <div class="col-6 wow tada" id="card01">
+                <div class="card bg-dark text-white">
+                    <a href="https://admissions.ncyu.edu.tw/www.aspx?webprjno=AAAR">
+                        <div class="card-img-overlay">
+                            <p class="card-title">特殊選材</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- 卡片1-End -->
+            <!-- 卡片2-Start -->
+            <div class="col-6 wow tada" id="card02">
+                <div class="card bg-dark text-white">
+                    <a href="https://admissions.ncyu.edu.tw/www.aspx?webprjno=AAAR">
+                        <div class="card-img-overlay">
+                            <p class="card-title">書審</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- 卡片2-End -->
+        </div>
+    </div>
+    <!--招生連結-End-->
+
+    <!--其他連結-Start-->
+    <div class="container-fluid" id="other-links">
+        <h1 class=" text text-center text-muted wow fadeInRight">其他連結</h1>
+        <hr>
+        <div class="row">
+            <div class="col-6 wow fadeInRight">
+                <a href="https://www.ncyu.edu.tw/life/itemize_list.aspx?site_content_sn=51384">承辦人資訊</a>
+            </div>
+            <div class="col-6 wow fadeInLeft">
+                <a href="https://www.ncyu.edu.tw/life/itemize_list.aspx?site_content_sn=51385">優秀獎學金</a>
+            </div>
+            <div class="col-6 wow fadeInRight">
+                <a href="https://www.ncyu.edu.tw/life/itemize_list.aspx?site_content_sn=51386">校外獎助金</a>
+            </div>
+            <div class="col-6 wow fadeInLeft">
+                <a href="https://www.ncyu.edu.tw/life/itemize_list.aspx?site_content_sn=53232">校內獎助學金</a>
+            </div>
+            <div class="col-6 wow fadeInRight">
+                <a href="https://www.ncyu.edu.tw/life/itemize_list.aspx?site_content_sn=51387">原住民暨區域性</a>
+            </div>
+            <div class="col-6 wow fadeInLeft">
+                <a href="https://www.ncyu.edu.tw/life/itemize_list.aspx?site_content_sn=52629">急難救助金</a>
+            </div>
+            <div class="col-6 wow fadeInRight">
+                <a href="https://www.ncyu.edu.tw/life/itemize_list.aspx?site_content_sn=52924">法規要點</a>
+            </div>
+            <div class="col-6 wow fadeInLeft">
+                <a href="https://www.ncyu.edu.tw/oia/content.aspx?site_content_sn=52480">出國研修獎學金</a>
+            </div>
+
+        </div>
+    </div>
+    <!--其他連結-End-->
 
 </body>
 <!--導入Bootstrap JS-->
@@ -277,6 +394,8 @@
 <script src="./js/jquery-3.6.0.min.js"></script>
 <!--偵測到滑動事件觸發文字特效的Wow.js-->
 <script src="./js/wow.js"></script>
+<!-- 燈箱效果JS -->
+<script src="./js/lightbox.min.js"></script>
 <!--自訂JS-->
 <script src="./js/script.js"></script>
 

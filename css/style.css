@@ -61,7 +61,6 @@
 /* 新聞幻燈片 */
 #news-carousel {
     padding: 50px 0px;
-    height: 900ㄌㄣ;
 }
 
 #news-carousel .row {
@@ -90,10 +89,99 @@
 }
 
 /* 系所介紹影片 */
-#intro-vedio {
-
-}
+#intro-vedio {}
 
 #intro-vedio iframe {
     width: 100%;
+}
+
+/* 課程地圖 */
+#class-map {
+    padding: 50px 0px;
+}
+
+#class-map img {
+    /* height: 500px; */
+    max-width: 100%;
+    max-height: 500px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav {
+    --bs-nav-link-color: gray !important;
+    --bs-nav-link-hover-color: gray !important;
+}
+
+/* 學校地圖 */
+#school-map {}
+
+#school-map img {
+    width: 100%;
+}
+
+/* 招生連結 */
+#admissions-links {
+    padding: 50px 0px;
+}
+
+#admissions-links a{
+    color: white !important;
+}
+
+#admissions-links #card01 .card {  
+    transform: rotate(-2deg); 
+    margin-left:10px;
+    margin-right:10px;
+    height: 300px;    
+    /* 背景圖片 */
+    background-image: url(../source/admissions.jpg) !important;
+    /* 背景滿版不重複，上下置中 */
+    background-repeat: no-repeat;
+    background-size: cover;        
+}
+
+#admissions-links #card02 .card {    
+    transform: rotate(2deg);
+    margin-left:10px;
+    margin-right:10px;
+    height: 300px;    
+    /* 背景圖片 */
+    background-image: url(../source/papers.jpg) !important;
+    /* 背景滿版不重複，上下置中 */
+    background-repeat: no-repeat;
+    background-size: cover;        
+    background-position: left center;
+}
+
+#admissions-links   .card-img-overlay  {
+    background-color: rgba(0, 0, 0,0.5 ) !important;
+    font-size: 20px;
+}
+
+#admissions-links   .card-img-overlay:hover{
+    background-color: rgba(0, 0, 0,0.3 ) !important;
+}
+
+#admissions-links .card :hover{
+    transition: 1s;
+    padding:30px;
+    font-size: 30px;
+}
+
+
+
+/* 其他連結 */
+#other-links {
+    padding: 50px 0px;
+}
+
+#other-links .row {
+    padding: 50px;
+    text-align: center;
+}
+
+#other-links a {
+    color: rgb(238, 69, 97);
 }
