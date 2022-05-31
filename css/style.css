@@ -61,7 +61,7 @@
 /* 新聞幻燈片 */
 #news-carousel {
     padding: 50px 0px;
-    height: 500px;
+    height: 900ㄌㄣ;
 }
 
 #news-carousel .row {
@@ -85,6 +85,15 @@
     height: 500px;
 }
 
-.carousel-caption{
+.carousel-caption {
     background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+/* 系所介紹影片 */
+#intro-vedio {
+
+}
+
+#intro-vedio .row {
+    
 }
