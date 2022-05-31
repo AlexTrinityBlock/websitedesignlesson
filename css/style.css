@@ -1,7 +1,7 @@
 /*上排選單與系所簡介共同背景*/
 #navbar-intro-background {
     /* 背景圖片 */
-    background-image: url(../source/intro.jpeg);
+    background-image: url(/source/intro.jpeg);
     /* 背景滿版不重複，上下置中 */
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,7 +46,7 @@
 /* 其他成就 */
 #other-achievement {
     /* 背景圖片 */
-    background-image: url(../source/child.jpg);
+    background-image: url(/source/child.jpg);
     /* 背景滿版不重複，上下置中 */
     background-repeat: no-repeat;
     background-size: cover;
@@ -66,7 +66,7 @@
 
 #news-carousel .row {
     /* 背景圖片 */
-    background-image: url(../source/intro.jpeg);
+    background-image: url(/source/intro.jpeg);
     /* 背景滿版不重複，上下置中 */
     background-repeat: no-repeat;
     background-size: cover;
