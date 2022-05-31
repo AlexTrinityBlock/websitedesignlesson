@@ -1,5 +1,6 @@
 /* 載入等待環 */
 #loader {
+    color: greenyellow;
     background-color: white;
     width: 100%;
     height: 100%;
