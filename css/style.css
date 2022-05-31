@@ -94,6 +94,6 @@
 
 }
 
-#intro-vedio .row {
-    
+#intro-vedio iframe {
+    width: 100%;
 }
