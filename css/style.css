@@ -21,6 +21,12 @@
 }
 
 /*上排選單與系所簡介共同背景*/
+#navbar{
+    z-index:50;
+    position: fixed;
+    width: 100%;
+}
+
 #navbar-intro-background {
     /* 背景圖片 */
     background-image: url(../source/intro.jpeg);
