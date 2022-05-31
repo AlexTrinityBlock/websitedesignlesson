@@ -11,12 +11,12 @@
 }
 
 #loader .spinner-border {
-    height: 100px !important;
-    width: 100px !important;
+    height: 200px !important;
+    width: 200px !important;
 }
 
 #loader-placholder {
-    height: 100px;
+    height: 200px;
 }
 
 /*上排選單與系所簡介共同背景*/
