@@ -9,14 +9,11 @@
     position: relative;
     width: 100%;
     height: 100%;
-    /* background-color: white !important; */
     transform-style: preserve-3d;
 }
 
-.book *:not(article){
-    background-color: white;
-    margin: 0px;
-    padding: 0px;
+.book div{
+    background: linear-gradient(to bottom right, #fff, #ccc);
 }
 
 .book div{
