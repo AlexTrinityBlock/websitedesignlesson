@@ -29,13 +29,12 @@
 }
 
 #navbar-intro-background {
-    width: 105%;
     /* 背景圖片 */
-    background-image: url(../source/intro.jpeg);
+    background-image: url(../source/intro.jpeg) !important;
     /* 背景滿版不重複，上下置中 */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
 }
 
 /* 上排選單 */
@@ -46,7 +45,7 @@
 
 /* 簡介 */
 .introduction .row {
-    padding: 150px 0px;
+    padding: 150px 20px;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
