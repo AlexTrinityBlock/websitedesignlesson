@@ -35,6 +35,7 @@
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center !important;
+    width: 105%;
 }
 
 /* 上排選單 */
@@ -45,7 +46,7 @@
 
 /* 簡介 */
 .introduction .row {
-    padding: 150px 20px;
+    padding: 150px 10%;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -99,7 +100,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
 }
 
 #carouselCaptions {
