@@ -11,6 +11,8 @@
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <!--滑入動畫CSS-->
     <link href="./css/animate.min.css" rel="stylesheet">
+    <!-- 翻書CSS -->
+    <link href="./css/book-flip.css" rel="stylesheet">
     <!--自訂的css-->
     <link href="./css/style.css" rel="stylesheet">
 </head>
@@ -356,6 +358,76 @@
     </div>
     <!--地圖-End-->
 
+    <!-- 翻書效果-Start -->
+    <div class="container" id="book-flip">
+        <h1 class=" text text-center text-muted wow tada ">你為何該加入生物化學系?</h1>
+        <hr>
+        <div class="row wow tada">
+            <div class="col-md-12 ">
+                <!-- 書本背景 -->
+                <div id="book-background">
+                    <!-- 書本-Start -->
+                    <div class="scene">
+                        <article class="book">
+                            <section class="page active">
+                                <div class="front">
+                                    <h3>你為何該加入生物化學系?</h3>
+                                    <br />
+                                    <p>
+                                        不可避免的，隨著文明發展，藥物與糧食需求都與對生物本身的理解高度相關。
+                                    </p>
+                                    <p>
+                                        當有辦法對於基因,細胞構成,生物的種群,生長有著進一步的理解。才能滿足帶領當今人類走向幸福社會的需要。
+                                    </p>
+                                    <br />
+                                    <img src="./source/child.jpg" alt="">
+                                </div>
+                                <div class="back">
+                                    <h3>嘉義大學的優勢</h3>
+                                    <br />
+                                    <p>
+                                        在正規的國立大學教育體系中，山明水秀的嘉義大學是個適合專注學習與研究的好地方。
+                                    </p>
+                                    <br /><br /><br /><br /><br /><br />
+                                    <img src="./source/ncyu-view.jpg" alt="">
+                                </div>
+                            </section>
+                            <section class="page">
+                                <div class="front">
+                                    <h3>就業方向</h3>
+                                    <br />
+                                    <span>
+                                        1. 公職人員<br>
+                                        2. 生技研究員<br>
+                                        3. 國高中生物老師<br>
+                                        4. 生技公司技術研發員<br>
+                                        5. 動物園管理技師<br>
+                                        6. 本系設有環境教育學程，領取證書後，可從事環境教育相關領域人員。<br>
+                                        7. 生態旅遊<br>
+                                        8. 其他<br>
+                                    </span>
+                                </div>
+                                <div class="back">
+                                    <h3>歡迎您的加入</h3>
+                                    <br />
+                                    <p>
+                                        國立嘉義大學係於民國89年2月1日，由原國立嘉義師範學院及原國立嘉義技術學院兩校整合而成。
+                                        學校歷史源遠流長，發展與成長的過程與百年來臺灣經濟、社會、教育的需要與變遷息息相關，脈脈相連。
+                                    </p>
+                                    <br />
+                                    <img src="./source/ncyu-icon.jpeg" alt="">
+                                </div>
+                            </section>
+                        </article>
+                    </div>
+                    <!-- 書本-End -->
+                </div>
+                <!-- 書本背景-End -->
+            </div>
+        </div>
+    </div>
+    <!-- 翻書效果-End -->
+
     <!--招生連結-Start-->
     <div class="container-fluid" id="admissions-links">
         <h1 class=" text text-center text-muted wow tada">招生連結</h1>
@@ -428,6 +500,8 @@
 <script src="./js/jquery-3.6.0.min.js"></script>
 <!--偵測到滑動事件觸發文字特效的Wow.js-->
 <script src="./js/wow.js"></script>
+<!-- 書本特效 -->
+<script src="./js/book-flip.js"></script>
 <!--自訂JS-->
 <script src="./js/script.js"></script>
 

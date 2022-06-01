@@ -1,7 +1,7 @@
 //初始化WoW
 new WOW().init();
 
-//載入時
+//載入圖標
 document.onreadystatechange = function () {
     if (document.readyState !== "complete") {
         document.querySelector("body").style.visibility = "hidden";

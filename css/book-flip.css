@@ -1,0 +1,96 @@
+.scene {
+    width: 45%;
+    height: 90%;
+    margin: 10px 5px 5px 50%;
+    perspective: 1000px;
+}
+
+.book {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* background-color: white !important; */
+    transform-style: preserve-3d;
+}
+
+.book *:not(article){
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.book div{
+    padding: 10px;
+}
+
+.book img{
+    max-width: 100%;
+    max-height: 200px;
+}
+
+.page {
+    cursor: pointer;
+    position: absolute;
+    color: black;
+    width: 100%;
+    height: 100%;
+
+    transition: 1.5s transform;
+    transform: translateZ(-1px);
+    transform-style: preserve-3d;
+    transform-origin: left center;
+}
+
+.front,
+.back {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+    padding: 10% 5% 5%;
+    box-sizing: border-box;
+
+    backface-visibility: hidden;
+    background-color: white !important;
+}
+
+.back {
+    transform: rotateY(180deg);
+}
+
+.page.active {
+    z-index: 1;
+    transform: translateZ(0);
+}
+
+.page.flipped {
+    transform: translateZ(0) rotateY(-180deg);
+}
+
+.page.flipped:last-of-type {
+    z-index: 1;
+}
+
+p {
+    margin: 0 0 0.1em;
+    text-indent: 1em;
+}
+
+.qr {
+    margin: 50px auto;
+    max-width: 50%;
+}
+
+.qr img {
+    display: block;
+}
+
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    .scene {
+        width: 90%;
+        height: 90%;
+        margin: 5%;
+    }
+}

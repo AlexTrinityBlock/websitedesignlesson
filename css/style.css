@@ -160,6 +160,22 @@
     width: 100%;
 }
 
+/* 翻書效果 */
+/* 實際的翻書效果驅動請參見book-flip.css與book-flip.js */
+#book-flip {
+    padding: 50px 0px;
+}
+
+#book-background{
+    padding: 5px;
+    height:600px;
+    width: 100%;
+    display: block;
+    background-image: url(../source/research-bg.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* 招生連結 */
 #admissions-links {
     padding: 50px 0px;
