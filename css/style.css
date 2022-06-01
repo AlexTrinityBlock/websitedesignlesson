@@ -1,5 +1,5 @@
 /* 載入等待環 */
-#loader {
+#loader-c {
     color: white;
     background-color: black;
     width: 100%;
@@ -11,28 +11,13 @@
     transform: translate(-50%, -50%);
 }
 
-#loader .spinner-border {
+#loader-c .spinner-border {
     height: 200px !important;
     width: 200px !important;
 }
 
 #loader-placholder {
     height: 200px;
-}
-
-.loader-fadeout {
-    animation: animate-fadeout 1s forwards;
-}
-
-@keyframes animate-fadeout {
-    0% {
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 0;
-        display: none;
-    }
 }
 
 /*上排選單與系所簡介共同背景*/
