@@ -1,3 +1,8 @@
+/* 
+    這是製作翻書效果用的JS，
+    若要使用要配合JQuery與book-flip.css。
+*/
+
 var currentPage = 0;
 
 $('.book')
