@@ -9,9 +9,5 @@ document.onreadystatechange = function () {
     } else {
         document.querySelector("#loader").style.display = "none";
         document.querySelector("body").style.visibility = "visible";
-        window.scrollTo({
-            top: 0,
-            behavior: 'auto'
-        });
     }
 };
