@@ -20,6 +20,21 @@
     height: 200px;
 }
 
+.loader-fadeout {
+    animation: animate-fadeout 1s forwards;
+}
+
+@keyframes animate-fadeout {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        display: none;
+    }
+}
+
 /*上排選單與系所簡介共同背景*/
 #navbar {
     /* 這裡可以固定選單列在螢幕頂端，但移動裝置不一定會呈現穩定效果。 */
@@ -44,7 +59,7 @@
     background-color: black !important;
 }
 
-.navbar-nav a{
+.navbar-nav a {
     font-size: 20px;
     padding: 10px;
 }

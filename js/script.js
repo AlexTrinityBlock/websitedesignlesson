@@ -6,8 +6,8 @@ document.onreadystatechange = function () {
     if (document.readyState !== "complete") {
         document.querySelector("body").style.visibility = "hidden";
         document.querySelector("#loader").style.visibility = "visible";
-    } else {
-        document.querySelector("#loader").style.display = "none";
+    } else {        
+        document.querySelector("#loader").classList.add("loader-fadeout");        
         document.querySelector("body").style.visibility = "visible";
     }
 };
