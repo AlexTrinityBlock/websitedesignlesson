@@ -9,15 +9,15 @@ document.onreadystatechange = function () {
     } else {        
         // document.querySelector("body").style.visibility = "visible";
         document.querySelector("#loader-c").style.display = "none";
-        let tempElement = document.querySelector('#navbar-intro-background').innerHTML;
-        document.querySelector("#navbar-intro-background").innerHTML=""
-        document.querySelector("#navbar-intro-background").innerHTML=tempElement
+        document.querySelector("#navbar-intro-background").style.width="100%";
     }
 };
 
 // 當螢幕調整大小
 window.onresize = function (){
-    let tempElement = document.querySelector('#navbar-intro-background').innerHTML;
-    document.querySelector("#navbar-intro-background").innerHTML=""
-    document.querySelector("#navbar-intro-background").innerHTML=tempElement
+    document.querySelector("#navbar").style.width="100%";
 }
+
+document.addEventListener('scroll', function(e) {
+    document.querySelector("#navbar").style.width="100%";
+  });
