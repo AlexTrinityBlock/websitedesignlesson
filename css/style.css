@@ -1,7 +1,6 @@
 /* 防止左右兩側出現白邊 */
 body{
-    overflow-x: hidden;
-    width: 105%;
+    overflow-x: hidden;    
 }
 
 /* 載入等待環 */
