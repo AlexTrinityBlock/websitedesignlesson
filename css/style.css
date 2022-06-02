@@ -1,11 +1,12 @@
 /*  */
 body{
     overflow-x: hidden;
-    width: 105%;
+    /* width: 105%; */
 }
 
 /* 載入等待環 */
 #loader-c {
+    overflow: hidden;
     color: white;
     background-color: black;
     width: 95%;
