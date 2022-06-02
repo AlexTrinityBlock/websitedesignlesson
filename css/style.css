@@ -37,14 +37,13 @@ body{
 #navbar-intro-background {
     margin-left: 0px;
     margin-right: 0px;
-    width: 105%;
+    width: 102%;
     /* 背景圖片 */
     background-image: url(../source/intro.jpeg) !important;
     /* 背景滿版不重複，上下置中 */
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center !important;
-    width: 100%;
 }
 
 /* 上排選單 */
