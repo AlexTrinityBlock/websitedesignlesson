@@ -1,4 +1,3 @@
-/*  */
 /* 載入等待環 */
 #loader-c {
     /*  */
@@ -28,7 +27,7 @@
 #navbar {
     /* 這裡可以固定選單列在螢幕頂端，但移動裝置不一定會呈現穩定效果。 */
     z-index: 50;
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
 }
 
