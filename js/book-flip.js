@@ -5,7 +5,7 @@
 
 var currentPage = 0;
 
-$('.book')
+$('#book-flip .book')
     .on('click', '.active', nextPage)
     .on('click', '.flipped', prevPage);
 
@@ -15,7 +15,7 @@ hammertime.on("swiperight", prevPage);
 
 function prevPage() {
 
-    $('.flipped')
+    $('#book-flip .flipped')
         .last()
         .removeClass('flipped')
         .addClass('active')
@@ -24,7 +24,7 @@ function prevPage() {
 }
 function nextPage() {
 
-    $('.active')
+    $('#book-flip .active')
         .removeClass('active')
         .addClass('flipped')
         .next('.page')
