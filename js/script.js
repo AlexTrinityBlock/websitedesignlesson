@@ -7,15 +7,5 @@ document.onreadystatechange = function () {
         document.querySelector("#loader-c").style.visibility = "visible";
     } else {        
         document.querySelector("#loader-c").style.display = "none";
-        $('#navbar-intro-background').backstretch("./source/intro.jpeg");
     }
 };
-
-// 當螢幕調整大小
-window.onresize = function (){
-    document.querySelector("#navbar").style.width="100%";
-}
-
-document.addEventListener('scroll', function(e) {
-    document.querySelector("#navbar").style.width="100%";
-  });
