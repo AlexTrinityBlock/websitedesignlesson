@@ -39,11 +39,11 @@ body{
     margin-right: 0px;
     width: 105%;
     /* 背景圖片 */
-    background-image: url(../source/intro.jpeg) !important;
+    /* background-image: url(../source/intro.jpeg) !important; */
     /* 背景滿版不重複，上下置中 */
-    background-repeat: no-repeat !important;
+    /* background-repeat: no-repeat !important;
     background-size: cover !important;
-    background-position: center !important;
+    background-position: center !important; */
     width: 100%;
 }
 
