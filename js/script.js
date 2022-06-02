@@ -7,7 +7,7 @@ document.onreadystatechange = function () {
         document.querySelector("#loader-c").style.visibility = "visible";
     } else {        
         document.querySelector("#loader-c").style.display = "none";
-        $('#navbar-intro-background').backstretch("../source/intro.jpeg");
+        $('#navbar-intro-background').backstretch("./source/intro.jpeg");
     }
 };
 
