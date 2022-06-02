@@ -1,6 +1,9 @@
 /*  */
 /* 載入等待環 */
 #loader-c {
+    /*  */
+    display: none;
+    overflow: hidden;
     color: white;
     background-color: black;
     width: 100%;
@@ -25,7 +28,7 @@
 #navbar {
     /* 這裡可以固定選單列在螢幕頂端，但移動裝置不一定會呈現穩定效果。 */
     z-index: 50;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
 }
 
@@ -36,7 +39,7 @@
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center !important;
-    width: 105%;
+    width: 100%;
 }
 
 /* 上排選單 */
@@ -63,7 +66,7 @@
 
 /* 學術成就 */
 #academic-achievement .row {
-    padding: 50px 0px;
+    padding-top: 50px;
 
 }
 
@@ -72,8 +75,12 @@
 }
 
 /* 各項表現 */
+#school-achievement{
+    margin-top: 50px;
+}
+
 #school-achievement .row {
-    padding: 50px 0px;
+    padding-top: 50px;
 }
 
 #school-achievement img {
@@ -81,7 +88,8 @@
 }
 
 #school-achievement .col {
-    padding: 0px 60px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 /* 其他成就 */
@@ -95,13 +103,14 @@
 }
 
 #other-achievement .row {
-    padding: 150px 0px;
+    padding-top: 150px;
+    padding-bottom: 150px;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* 新聞幻燈片 */
 #news-carousel {
-    padding: 50px 0px;
+    padding-top: 50px;
 }
 
 #news-carousel .row {
@@ -129,7 +138,9 @@
 }
 
 /* 系所介紹影片 */
-#intro-vedio {}
+#intro-vedio {
+    margin-top: 50px;
+}
 
 #intro-vedio iframe {
     width: 100%;
@@ -137,7 +148,7 @@
 
 /* 課程地圖 */
 #class-map {
-    padding: 50px 0px;
+    padding-top: 50px;
 }
 
 #class-map img {
@@ -155,7 +166,9 @@
 }
 
 /* 學校地圖 */
-#school-map {}
+#school-map {
+    margin-top: 50px;
+}
 
 #school-map img {
     width: 100%;
@@ -164,7 +177,7 @@
 /* 翻書效果 */
 /* 實際的翻書效果驅動請參見book-flip.css與book-flip.js */
 #book-flip {
-    padding: 50px 0px;
+    padding-top: 50px;
 }
 
 #book-background{
@@ -179,7 +192,7 @@
 
 /* 招生連結 */
 #admissions-links {
-    padding: 50px 0px;
+    padding-top: 50px;
 }
 
 #admissions-links a {
@@ -230,7 +243,7 @@
 
 /* 其他連結 */
 #other-links {
-    padding: 50px 0px;
+    padding-top: 50px;
 }
 
 #other-links .row {
