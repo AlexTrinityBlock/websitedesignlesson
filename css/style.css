@@ -114,19 +114,23 @@ body {
 }
 
 @media screen and (max-width:500px) {
+
     /* 螢幕小於500px時 */
     #teachers .teachers-list {
         width: 350px;
     }
+
     #teachers .teachers-list .teachers-list-row {
         /* 師資區塊橫列 */
         height: 70px;
         margin-top: -43px;
         margin-bottom: -43px;
     }
+
     #teachers .teachers-list .teachers-list-row.teachers-list-offset {
         margin-left: 51px !important;
     }
+
     #teachers .teachers-list .teachers-list-row a {
         display: inline-block;
         width: 70px;
@@ -137,6 +141,37 @@ body {
     /* 師資區塊橫列元素圖片 */
     display: block;
     width: 100%;
+}
+
+/* 教師介紹區 */
+#teacher-intro-bg {
+    /* 背景圖片 */
+    background-image: url(../source/intro.jpeg);
+    /* 背景滿版不重複，上下置中 */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#teacher-intro {
+    background-color: #212529;
+    opacity: 0.95;
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+#teacher-intro-img img{
+    float:right;
+    width: 100%;
+    max-width: 300px;
+}
+
+#teacher-intro-text {
+    padding-left: 100px;
+    color: white;
+    font-size:20px;
 }
 
 /* 各項表現 */
@@ -321,17 +356,17 @@ body {
 }
 
 /* 頁尾 */
-footer div p{
+footer div p {
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-footer div p a{
+footer div p a {
     color: pink;
     text-decoration-line: none;
     font-size: 18px;
 }
 
-footer div p a:hover{
+footer div p a:hover {
     color: palevioletred;
 }

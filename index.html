@@ -134,6 +134,7 @@
     <div class="container-fluid" id="teachers">
         <h1 class=" text text-center text-muted wow fadeInUp">師資與人員</h1>
         <hr>
+        <!-- 師資區塊選擇區-start -->
         <div class="row">
             <!-- 師資介紹文字 -->
             <div class="col-md-5 offset-md-1 wow fadeInUp">
@@ -142,7 +143,7 @@
                     多位老師具有跨領域能力及業界實務經驗，除了在課堂上教授業界之實務作法，同時可將過去經驗融入於研究中，並加強學界與業界之合作交流。除專任教師外，亦聘請業界相關領域的兼任老師，並開設雙師教學課程，不僅可讓學生獲取最新之業界資訊，亦可促進本系與業界之合作互動。
                 </p>
             </div>
-            <!-- 師資區塊-Start -->
+            <!-- 師資六角區塊-Start -->
             <div class="col-md-5">
                 <div class="teachers-list">
                     <!-- 第1橫列 -->
@@ -156,13 +157,13 @@
                     </div>
                     <!-- 第2橫列 -->
                     <div class="teachers-list-row wow fadeInLeft">
-                        <a href="">
+                        <a href="" id="Cheng_Nan_Chen">
                             <img src="./source/teachers/profcnchen.png" alt="">
                         </a>
                         <a href="">
                             <img src="./source/teachers/proftfwang.png" alt="">
                         </a>
-                        <a href="">
+                        <a href="" id="Hsin_I_Chang">
                             <img src="./source/teachers/profhchang.png" alt="">
                         </a>
 
@@ -199,7 +200,7 @@
                     </div>
                     <!-- 第6橫列 -->
                     <div class="teachers-list-row wow fadeInLeft">
-                        <a href="">
+                        <a href="" id="Ruey_Shyang_Chen">
                             <img src="./source/teachers/profrechen.png" alt="">
                         </a>
                         <a href="">
@@ -211,8 +212,25 @@
                     </div>
                 </div>
             </div>
-            <!-- 師資區塊-End -->
+            <!-- 師資六角區塊-End -->
         </div>
+        <!-- 師資區塊選擇區-End -->
+        <!-- 師資細節顯示區-Start -->
+        <div class="row">
+            <div class="col-12">
+                <div id="teacher-intro-bg">
+                    <div id="teacher-intro">
+                        <div class="row">
+                            <div id="teacher-intro-text" class="col-6">
+                            </div>
+                            <div id="teacher-intro-img" class="col-6">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 師資細節顯示區-End -->
     </div>
     <!-- 師資-End -->
 
@@ -589,7 +607,7 @@
                 <div class="col-md-12">
                     <p class="text-center text-white">@2022 Copyright:
                         <a href="https://github.com/cosine8666">cosine8666</a>
-                    </p>                    
+                    </p>
                 </div>
             </div>
         </div>
@@ -609,5 +627,6 @@
 <script src="./js/book-flip.js"></script>
 <!--自訂JS-->
 <script src="./js/script.js"></script>
-
+<!-- 導入老師效果JS -->
+<script src="./js/teachers-intro.js"></script>
 </html>
