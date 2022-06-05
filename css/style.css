@@ -319,3 +319,19 @@ body {
 #other-links a {
     color: rgb(238, 69, 97);
 }
+
+/* 頁尾 */
+footer div p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer div p a{
+    color: pink;
+    text-decoration-line: none;
+    font-size: 18px;
+}
+
+footer div p a:hover{
+    color: palevioletred;
+}
