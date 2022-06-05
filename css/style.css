@@ -103,7 +103,7 @@ body {
     margin-left: 60px !important;
 }
 
-#teachers .teachers-list .teachers-list-row a {
+#teachers .teachers-list .teachers-list-row div {
     /* 師資區塊橫列元素 */
     display: inline-block;
     width: 90px;
@@ -131,13 +131,13 @@ body {
         margin-left: 51px !important;
     }
 
-    #teachers .teachers-list .teachers-list-row a {
+    #teachers .teachers-list .teachers-list-row div {
         display: inline-block;
         width: 70px;
     }
 }
 
-#teachers .teachers-list .teachers-list-row a img {
+#teachers .teachers-list .teachers-list-row div img {
     /* 師資區塊橫列元素圖片 */
     display: block;
     width: 100%;
