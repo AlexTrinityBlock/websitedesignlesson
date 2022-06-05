@@ -81,13 +81,16 @@ body {
 
 /* 師資與人員 */
 #teachers {
+    width: 100vw;
     margin-top: 50px;
+    overflow-x: scroll;
 }
 
 #teachers .teachers-list {
-    width: 550px;
+    width: 440px;
     margin-left: auto;
     margin-right: auto;
+    overflow-x: scroll;
 }
 
 #teachers .teachers-list .teachers-list-row {
@@ -102,8 +105,8 @@ body {
 #teachers .teachers-list .teachers-list-row a {
     /* 師資區塊橫列元素 */
     display: inline-block;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
 }
 
 #teachers .teachers-list .teachers-list-row a img {
