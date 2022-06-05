@@ -1,6 +1,7 @@
 /*  */
-body{
+body {
     overflow-x: hidden;
+
 }
 
 /* 載入等待環 */
@@ -78,8 +79,42 @@ body{
     width: 100%;
 }
 
+/* 師資與人員 */
+#teachers {
+    margin-top: 50px;
+}
+
+#teachers .teachers-list {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#teachers .teachers-list .teachers-list-row {
+    /* 師資區塊橫列 */
+    display: inline-block;
+}
+
+#teachers .teachers-list .teachers-list-row.teachers-list-offset {
+    margin-left: 50px !important;
+}
+
+#teachers .teachers-list .teachers-list-row a {
+    /* 師資區塊橫列元素 */
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+#teachers .teachers-list .teachers-list-row a img {
+    /* 師資區塊橫列元素圖片 */
+    display: block;
+    width: 100%;
+
+}
+
 /* 各項表現 */
-#school-achievement{
+#school-achievement {
     margin-top: 50px;
 }
 
@@ -184,9 +219,9 @@ body{
     padding-top: 50px;
 }
 
-#book-background{
+#book-background {
     padding: 5px;
-    height:600px;
+    height: 600px;
     width: 100%;
     display: block;
     background-image: url(../source/research-bg.jpg) !important;
