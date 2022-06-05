@@ -83,7 +83,7 @@ body {
 #teachers {
     width: 100vw;
     margin-top: 50px;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
 }
 
 #teachers .teachers-list {
