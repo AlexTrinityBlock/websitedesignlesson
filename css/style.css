@@ -81,9 +81,7 @@ body {
 
 /* 師資與人員 */
 #teachers {
-    width: 100vw;
     margin-top: 50px;
-    /* overflow-x: scroll; */
 }
 
 #teachers .teachers-list {
@@ -109,19 +107,35 @@ body {
     height: 90px;
 }
 
-@media screen and (max-width:500px) { 
+@media screen and (max-width:500px) {
     /* 螢幕小於500px時 */
     #teachers .teachers-list {
         width: 350px;
         margin-left: auto;
         margin-right: auto;
     }
+
     #teachers .teachers-list .teachers-list-row a {
         display: inline-block;
         width: 70px;
         height: 70px;
     }
-  }
+}
+
+@media screen and (max-width:360px) {
+    /* 螢幕小於360px時 */
+    #teachers .teachers-list {
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #teachers .teachers-list .teachers-list-row a {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+    }
+}
 
 #teachers .teachers-list .teachers-list-row a img {
     /* 師資區塊橫列元素圖片 */
