@@ -150,7 +150,7 @@ function setButtonEventListener(button_id) {
     let actionObj = () => {
         setTracherIntroInfo(button_id);
     }
-    document.getElementById(button_id).addEventListener("mouseover", actionObj, false);
+    document.getElementById(button_id).addEventListener("click", actionObj, false);
 }
 
 // 主函數
