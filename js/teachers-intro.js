@@ -123,14 +123,14 @@ function setTracherIntroInfo(name) {
     imgObj.classList.add("fadeInLeft")
     imageContainerObj.appendChild(imgObj)
     // 設置文字
-    h2Obj.innerHTML = data.name;
+    h2Obj.innerHTML = data.name+"<br/><br/>";
     h2Obj.classList.add("wow")
     h2Obj.classList.add("fadeInDown")
     textObj.appendChild(h2Obj);
     //如果有寫學歷的話
     if (data.degree != "") {
         let spanObj = document.createElement("span")
-        spanObj.innerHTML = "最高學歷:<br/>" + data.degree + "<br/>";
+        spanObj.innerHTML = "最高學歷:<br/>" + data.degree + "<br/><br/>";
         spanObj.classList.add("wow")
         spanObj.classList.add("fadeIn")
         textObj.appendChild(spanObj);
@@ -138,7 +138,7 @@ function setTracherIntroInfo(name) {
     //如果有研究室的話
     if (data.lab != "") {
         spanObj = document.createElement("span")
-        spanObj.innerHTML = "研究室:<br/>" + data.lab + "<br/>";
+        spanObj.innerHTML = "研究室:<br/>" + data.lab + "<br/><br/>";
         spanObj.classList.add("wow")
         spanObj.classList.add("fadeIn")
         textObj.appendChild(spanObj);
