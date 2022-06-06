@@ -197,6 +197,7 @@ body {
 /* 各項表現 */
 #school-achievement {
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #school-achievement .row {
@@ -204,7 +205,7 @@ body {
 }
 
 #school-achievement img {
-    width: 50vh;
+    width: 150px;
 }
 
 #school-achievement .col {
